@@ -1,0 +1,111 @@
+
+*{
+    margin: 0px;
+}
+body{
+    font-family: "Time New Roman";
+    font-size: 1.2em;
+    background-color:white;
+    
+    }
+nav ul li{
+
+color: black;
+border: 2px solid pink;
+margin-left: 20px;
+margin-right: 550px;
+}
+header .google_text input{
+    width: 40%;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    outline: none;
+    margin-left: 30%;
+}
+header .google_text input:hover{
+    box-shadow: 0.1px 1px 10px 0.1px rgba(211, 211, 211, 9.7);
+}
+header .google_img{
+    position: relative;
+}
+
+header .google_img img{
+    max-width: 100px;
+    max-height: 130px;
+    margin-top: 45px;
+    left: 150vh;
+    top: -165px;
+    position: absolute;
+}
+header input{
+    margin: 45px;
+    margin-right: 0px;
+    width: 40%;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    outline: none;
+    margin-left: 50%;
+}
+#one{
+    display: block;
+    line-height: 1.58;
+}
+#two{
+    display: block;
+    line-height: 2.58;
+}
+#three{
+    display: block;
+    line-height: 3.58;
+}
+#four{
+    display: block;
+    line-height: 4.58;
+}
+nav,article,aside,section{
+margin:0.2%;
+padding: 0.4%;
+background-color: white;
+border-radius: 5px;
+}
+article{
+background-color: #f7f7f7;
+}
+section{
+width: 60%;
+}
+aside{
+width: 35%;
+float: right;
+}
+nav ul{
+margin: 1px;
+padding: 1px;
+}
+nav ul li{
+display: contents;
+
+
+}
+nav ul li a:link ,a:visited {
+text-decoration: none;
+padding: 10px 30px;
+}
+
+nav ul li a:hover, a:active{
+text-decoration: none;
+padding: 10px 30px;
+background-color: yellow;
+color: red;
+}
+img{
+border-radius: 50%;
+width: 250px;
+height: 250px;
+}
+@media screen(max-width: 480px){
+nav ul li{
+display: block;
+}
